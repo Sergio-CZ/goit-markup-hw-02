@@ -1,0 +1,84 @@
+.body {
+background-color:#FFFFFF;
+      color:#212121;
+}
+
+.list {
+list-style: none;
+}
+/* Цвет текста логотипа */
+.logo {
+  color: #000000;
+}
+.logo-blue {
+  color: #2196F3;
+}
+/* Ховер и фокус мэйла и телефона */
+.long .link-blue:hover,
+.long .link-blue:focus {
+  color:red
+}
+.link-blue:focus {
+  color: green;
+}
+.long .link-black:hover,
+.long .link-black:focus {
+  color: red;
+}
+.link-black {
+  color: #212121
+}
+.link-blue {
+  color:#2196F3;
+}
+.link-blue {
+      color: #2196F3;
+}
+.link-grey {
+  color:#757575
+}
+.short .link-blue:hover,
+.short .link-blue:focus {
+  color: red;
+}
+.short .link-grey:hover,
+.short .link-grey:focus {
+  color: red;
+}
+.text {
+  color:#FFFFFF;
+}
+.section-effect {
+  background-color:#2F303A;
+}
+/* Цвет адреса в футере */
+.address {
+  color: #000000
+}
+.long .address:hover,
+.long .address:focus {
+      color: red;
+    }
+  /* Цвет контакта в футере */
+
+.mail {
+  color: rgba(0,0,0,0.6)
+}
+.mail:hover {
+  color: red;
+}
+
+
+
+    /* основной текст color: #212121*/
+    /* вторичный цвет color:#757575 */
+    /* цвет кнопки color:#2196F3 */
+       /* цвет Студия, WEB, info color:#2196F3 */
+    /*  цвет текста кнопки color:rgba(0, 0, 0, 0.15); */
+ /* цвет кнопки color:rgba( */
+
+ /* цвет  STUDIO color:#000000 */
+  /* цвет фона ЭФФЕКТИВН., footer  #2F303A */
+     /* цвет фона WEBSTUDIO #FFFFFF */
+     /* чем мы занимаемся background: #E5E5E5; */
+    /* наша команда background: #F5F4FA; */

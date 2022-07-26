@@ -1,0 +1,64 @@
+.body {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Цвет текста логотипа */
+.logo {
+    color: #000000;
+}
+
+.logo-blue {
+    color: #2196F3;
+}
+/* Цвет белый "ВСЕ" */
+.link-white {
+    background-color: #2196F3;
+    color:#FFFFFF;
+ }
+/* Ховер и фокус мэйла и телефона */
+.link-blue:hover,
+.long .link-blue:focus {
+    color: red
+}
+
+
+
+.link-blue:focus {
+    color: green;
+}
+
+.long .link-black:hover,
+.long .link-black:focus { 
+    color: red;
+}
+
+.link-black {
+    color: #212121
+}
+
+.link-blue {
+    color: #2196F3;
+}
+
+.link-blue {
+    color: #2196F3;
+}
+
+.link-grey {
+    color: #757575
+}
+
+.short .link-blue:hover,
+.short .link-blue:focus {
+    color: red;
+}
+
+.short .link-grey:hover,
+.short .link-grey:focus {
+    color: red;
+}
