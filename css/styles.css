@@ -53,7 +53,43 @@ list-style: none;
 }
 /* Цвет адреса в футере */
 .address {
-  color: #000000
+  background-color: #2F303A;
+}
+.logo-white {
+  color: #FFFFFF;
+}
+.white {
+  color:#FFFFFF;
+}
+/* Уточнить цвет 60% */
+.semi-white {
+  color: #FFFFFF;
+}
+  
+  .section-effect {
+    background-color: #2F303A;
+  }
+  
+  /* Цвет адреса в футере */
+  .address {
+    background-color: #2F303A;
+  }
+  
+  .logo-white {
+    color:#FFFFFF;
+    }
+    
+    .section-effect {
+      background-color: #2F303A;
+    }
+    
+    /* Цвет адреса в футере */
+    .address {
+      background-color: #2F303A;
+    }
+    
+    .logo-white {
+      color:#ffffff;
 }
 .long .address:hover,
 .long .address:focus {
@@ -62,7 +98,7 @@ list-style: none;
   /* Цвет контакта в футере */
 
 .mail {
-  color: rgba(0,0,0,0.6)
+  color: rgba(f,f,f,0.6)
 }
 .mail:hover {
   color: red;

@@ -19,7 +19,26 @@
 .link-white {
     background-color: #2196F3;
     color:#FFFFFF;
- }
+}
+.logo-white {
+    color: #FFFFFF;
+}
+.white {
+    color: #FFFFFF;
+}
+/* Уточнить цвет 60% */
+.semi-white {
+    color: #FFFFFF;
+}
+/* Цвет адреса в футере */
+.address {
+    background-color: #2F303A;
+}
+.link-black {
+    background-color: #F5F4FA;
+    color: 757575; }
+
+
 /* Ховер и фокус мэйла и телефона */
 .link-blue:hover,
 .long .link-blue:focus {
@@ -61,4 +80,34 @@
 .short .link-grey:hover,
 .short .link-grey:focus {
     color: red;
+}
+.text {
+    color: #FFFFFF;
+}
+.section-effect {
+    background-color: #2F303A;
+}
+/* Цвет адреса в футере */
+.address {
+    color: 2F303A
+}
+.long {
+    background-color: 2F303A;
+}
+.long .address:hover,
+.long .address:focus {
+    color: red;
+}
+
+/* Цвет контакта в футере */
+
+.mail {
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.mail:hover {
+    color: red;
+}
+.footer {
+    background-color: 2F303A;
 }
