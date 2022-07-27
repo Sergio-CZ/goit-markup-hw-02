@@ -1,6 +1,4 @@
  
-/* Цвет белый "ВСЕ" */
- 
 /* Цвет основы и основной цвет страницы */
 .body {
     background-color: #FFFFFF;
@@ -20,19 +18,24 @@
 .blue {
     color: #2196F3;
 }
-
 .grey {
-    color: #212121
+    background-color:#F5F4FA;
+    color: #212121;
+}
+.grey-img {
+    color: c#212121;
 }
 .grey-header {
     color: #212121;
-    background-color: #F5F4FA;
 }
 .blue:hover {
     color: red;
 }
 .semi {
     color: #757575;
+}
+.grey:hover {
+    color: red;
 }
 /* Фокус не работатет */
 .blue:focus {
@@ -48,10 +51,10 @@
 .grey-header:hover {
     color: red;
 }
-.semi-list:hover {
+.semi-grey:hover {
     color: red;
 }
-.semi-list {
+.semi-grey {
     color: #757575;
 }
 /* Цвет текста логотипа в футере */
@@ -73,10 +76,6 @@
 }
 
 /* фокус мэйла и телефона НЕ РАБОТАЕТ */
-
-.semi-grey {
-    color: #757575
-}
 
 /* Цвет адреса в футере */
 .address {
