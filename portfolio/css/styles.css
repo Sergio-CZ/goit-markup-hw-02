@@ -1,113 +1,102 @@
+ 
+/* Цвет белый "ВСЕ" */
+ 
+/* Цвет основы и основной цвет страницы */
 .body {
     background-color: #FFFFFF;
-    color: #212121;
-}
-
+  }
+/* Полезное правило для удаления атрибутов в списке */
 .list {
     list-style: none;
 }
-
-/* Цвет текста логотипа */
-.logo {
+/* Цвет текста логотипа в хедере */
+.black {
     color: #000000;
 }
-
 .logo-blue {
     color: #2196F3;
 }
-/* Цвет белый "ВСЕ" */
-.link-white {
-    background-color: #2196F3;
-    color:#FFFFFF;
+/* Цвета ссылок */
+.blue {
+    color: #2196F3;
 }
-.logo-white {
-    color: #FFFFFF;
-}
-.white {
-    color: #FFFFFF;
-}
-/* Уточнить цвет 60% */
-.semi-white {
-    color: #FFFFFF;
-}
-/* Цвет адреса в футере */
-.address {
-    background-color: #2F303A;
-}
-.link-black {
-    background-color: #F5F4FA;
-    color: 757575; }
 
+.grey {
+    color: #212121
+}
+.grey-header {
+    color: #212121;
+    background-color: #F5F4FA;
+}
+.blue:hover {
+    color: red;
+}
+.semi {
+    color: #757575;
+}
+/* Фокус не работатет */
+.blue:focus {
+    color: green;
+}
+.blue-white {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.blue-white:hover {
+    color: red;
+}
+.grey-header:hover {
+    color: red;
+}
+.semi-list:hover {
+    color: red;
+}
+.semi-list {
+    color: #757575;
+}
+/* Цвет текста логотипа в футере */
+.white {
+    color: #ffffff;
+}
+.white:hover,
+.white:focus {
+    color: red;
+}
+
+.white-text {
+    color: #ffffff
+}
 
 /* Ховер и фокус мэйла и телефона */
-.link-blue:hover,
-.long .link-blue:focus {
+.semi-white:hover {
     color: red
 }
 
+/* фокус мэйла и телефона НЕ РАБОТАЕТ */
 
-
-.link-blue:focus {
-    color: green;
-}
-
-.long .link-black:hover,
-.long .link-black:focus { 
-    color: red;
-}
-
-.link-black {
-    color: #212121
-}
-
-.link-blue {
-    color: #2196F3;
-}
-
-.link-blue {
-    color: #2196F3;
-}
-
-.link-grey {
+.semi-grey {
     color: #757575
 }
 
-.short .link-blue:hover,
-.short .link-blue:focus {
-    color: red;
-}
-
-.short .link-grey:hover,
-.short .link-grey:focus {
-    color: red;
-}
-.text {
-    color: #FFFFFF;
-}
-.section-effect {
-    background-color: #2F303A;
-}
 /* Цвет адреса в футере */
 .address {
-    color: 2F303A
+    background-color: #2F303A;
 }
-.long {
-    background-color: 2F303A;
+
+.logo-white {
+    color: #FFFFFF;
 }
-.long .address:hover,
-.long .address:focus {
-    color: red;
+
+.white {
+    color: #FFFFFF;
+}
+
+/* Уточнить цвет 60%, НЕ РАБОТАЕТ */
+.semi-white {
+    color: rgba(f, f, f, 0.6);
 }
 
 /* Цвет контакта в футере */
-
-.mail {
-    color: rgba(0, 0, 0, 0.6)
-}
-
-.mail:hover {
+.semi-white:hover {
     color: red;
-}
-.footer {
-    background-color: 2F303A;
 }
