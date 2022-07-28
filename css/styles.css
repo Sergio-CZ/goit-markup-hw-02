@@ -1,83 +1,87 @@
 /* Цвет основы и основной цвет страницы */
+:root {
+  --text-color:  #757575;
+  --title-color: #212121;
+  --color-blue: #2196F3;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-red: #990909;
+  --color-header-footer: #2F303A;
+  --color-whitesemi: rgba(f, f, f, 0.6);
+  }
+
 .body {
 background-color:#FFFFFF;
-      color:#212121;
-}
+   }
 /* Полезное правило для удаления атрибутов в списке */
 .list {
 list-style: none;
 }
 /* Цвет текста логотипа в хедере */
-.black {
-  color: #000000;
+.studio-link {
+  color: var(--color-black);
 }
-.blue {
-  color: #2196F3;
+.web-link {
+  color: var(--color-blue);
 }
+  .web-link:hover {
+      color: var(--color-red);
+}
+ .web-link-list {
+  color: var(--color-blue);
+ }
+  .web-link-list:hover {
+      color: var(--color-red);
+ }
 /* Цвета ссылок */
-.logo-blue  {
-  color:#2196F3;
+.portfolio-link {
+  color: var(--title-color);
 }
-.grey {
-  color: #212121
+.portfolio-link:hover {
+      color: var(--color-red);      
 }
-.blue:hover {
-    color: red;
-  }
-.grey-header {
-      color: #212121;      
+.contact-link{
+  color: var(--text-color);
 }
-.semi {
-  color: #757575;
+.contact-link:hover {
+  color: var(--color-red);
 }
 /* Фокус не работатет */
-
- .grey-header:hover {
-  color: red;
- }
-.semi:hover {
-      color: red;
+.text {
+  background-color: var(--color-header-footer);
+  color: var(--color-white);
+}
+.button {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+.rules-list {
+  color: var(--title-color);
+}
+.profi-text: {
+      color: var(--text-color);
 }
 /* Цвет текста логотипа в футере */
-.white {
-  color: #ffffff;
-}
-.white:hover,
-.white:focus {
-  color: red;
-}
- .white-text {
-  color:#ffffff
- }
-/* Ховер и фокус мэйла и телефона */
-.semi-white:hover {
-  color:red
-}
-/* фокус мэйла и телефона НЕ РАБОТАЕТ */ 
-
-.semi-grey {
-  color:#757575
-}
- 
-/* Цвет адреса в футере */
 .address {
-  background-color: #2F303A;
+  background-color: var(--color-header-footer);
 }
-.logo-white {
-  color:#FFFFFF;
+.adress-info : {
+  color: var(--color-whitesemi);
 }
-.white {
-  color:#FFFFFF;
-}
-/* Уточнить цвет 60%, НЕ РАБОТАЕТ */
-.semi-white {
-  color: rgba(f,f,f, 0.6);
-}
-  /* Цвет контакта в футере */
-.semi-white:hover {
-  color: red;
+.adress-info:hover {
+  color: var(--color-red);
 }
 
+.address-text {
+  color: var(--color-white);
+}
+.address-text:hover,
+.address-text:focus {
+      color: var(--color-red);
+     }
+.address-web {
+  color: var(--color-blue);
+}
 
 
     /* основной текст color: #212121*/
