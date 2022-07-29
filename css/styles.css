@@ -7,7 +7,7 @@
   --color-black: #000000;
   --color-red: #990909;
   --color-header-footer: #2F303A;
-  --color-whitesemi: rgba(f, f, f, 0.6);
+  --color-whitesemi: rgba(0, 0, 0, 0.6);
   }
 
 .body {
@@ -24,13 +24,13 @@ list-style: none;
 .web-link {
   color: var(--color-blue);
 }
-  .web-link:hover {
+.web-link:hover {
       color: var(--color-red);
 }
- .web-link-list {
+.web-link-list {
   color: var(--color-blue);
  }
-  .web-link-list:hover {
+.web-link-list:hover {
       color: var(--color-red);
  }
 /* Цвета ссылок */
@@ -40,7 +40,7 @@ list-style: none;
 .portfolio-link:hover {
       color: var(--color-red);      
 }
-.contact-link{
+.contact-link {
   color: var(--text-color);
 }
 .contact-link:hover {
@@ -55,33 +55,35 @@ list-style: none;
   background-color: var(--color-blue);
   color: var(--color-white);
 }
+.button:hover,
+.button:focus {
+      color: var(--color-red);
+}
 .rules-list {
   color: var(--title-color);
 }
-.profi-text: {
+.profi-text {
       color: var(--text-color);
 }
 /* Цвет текста логотипа в футере */
 .address {
   background-color: var(--color-header-footer);
 }
-.adress-info : {
-  color: var(--color-whitesemi);
-}
-.adress-info:hover {
-  color: var(--color-red);
-}
-
 .address-text {
   color: var(--color-white);
 }
 .address-text:hover,
-.address-text:focus {
-      color: var(--color-red);
-     }
-.address-web {
-  color: var(--color-blue);
+.adress-info:focus {
+  color: var(--color-red);
 }
+.adress-info {
+  color: var(--color-whitesemi);
+}
+.adress-info:hover,
+.adress-info:focus {
+  color: var(--color-red);
+}
+
 
 
     /* основной текст color: #212121*/
