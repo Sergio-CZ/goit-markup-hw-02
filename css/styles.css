@@ -24,26 +24,30 @@ list-style: none;
 .web-link {
   color: var(--color-blue);
 }
-.web-link:hover {
+.web-link:hover,
+.web-link:focus {
       color: var(--color-red);
 }
 .web-link-list {
   color: var(--color-blue);
  }
-.web-link-list:hover {
+.web-link-list:hover,
+.web-link-list:focus {
       color: var(--color-red);
  }
 /* Цвета ссылок */
 .portfolio-link {
   color: var(--title-color);
 }
-.portfolio-link:hover {
+.portfolio-link:hover,
+.portfolio-link:focus {
       color: var(--color-red);      
 }
 .contact-link {
   color: var(--text-color);
 }
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--color-red);
 }
 /* Фокус не работатет */
