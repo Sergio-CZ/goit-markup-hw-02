@@ -7,12 +7,20 @@
   --color-black: #000000;
   --color-red: #990909;
   --color-header-footer: #2F303A;
-  --color-whitesemi: rgba(0, 0, 0, 0.6);
+  --color-whitesemi: :rgba(f, f, f, 0.6);
+  --color-button-grey: #F5F4FA;
   }
 
 .body {
-background-color:#FFFFFF;
+  background-color:#FFFFFF;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
    }
+
+   h1,h2,h3,p {
+    font-family: Roboto, sans-serif;
+   }
+
 /* Полезное правило для удаления атрибутов в списке */
 .list {
 list-style: none;
@@ -20,17 +28,36 @@ list-style: none;
 /* Цвет текста логотипа в хедере */
 .studio-link {
   color: var(--color-black);
+  font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.11; 
+    text-decoration-line: none;
 }
+
 .web-link {
   color: var(--color-blue);
-}
+  font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.11;
+  }
+
 .web-link:hover,
 .web-link:focus {
       color: var(--color-red);
+
 }
 .web-link-list {
   color: var(--color-blue);
+  font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration-line: none;
  }
+
 .web-link-list:hover,
 .web-link-list:focus {
       color: var(--color-red);
@@ -38,51 +65,167 @@ list-style: none;
 /* Цвета ссылок */
 .portfolio-link {
   color: var(--title-color);
+  font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration-line: none;
 }
+
 .portfolio-link:hover,
 .portfolio-link:focus {
-      color: var(--color-red);      
+    color: var(--color-red);
 }
+
 .contact-link {
   color: var(--text-color);
+   font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration-line: none;
 }
+
 .contact-link:hover,
 .contact-link:focus {
   color: var(--color-red);
 }
-/* Фокус не работатет */
+
 .text {
   background-color: var(--color-header-footer);
   color: var(--color-white);
-}
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+} 
+
 .button {
   background-color: var(--color-blue);
   color: var(--color-white);
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
 }
+
 .button:hover,
 .button:focus {
       color: var(--color-red);
 }
+
+ .portfolio-button {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: c;
+ }
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color:red;
+}
+
+.web-button {
+  background-color: var(--color-button-grey);
+  color: var(--title-color);
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+}
+
+
 .rules-list {
   color: var(--title-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
-.profi-text {
+
+.section-list {
+  color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+      line-height: 1.17; 
+      text-align: center;
+}
+
+.rules-text {
       color: var(--text-color);
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
 }
+
+.name-list {
+  color: var(--title-color);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.19; 
+
+}
+
+.profi-text {
+  color: var(--text-color);
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
 /* Цвет текста логотипа в футере */
-.address {
+.section-address {
   background-color: var(--color-header-footer);
-}
+  }
+
+.address-studio {
+  color: var(--color-white);
+  font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.11;
+    text-decoration-line: none;
+    font-style: normal;
+    }
+
 .address-text {
   color: var(--color-white);
+  font-family: Roboto;
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration-line: none;
+    font-style: normal;
 }
+
 .address-text:hover,
 .adress-info:focus {
   color: var(--color-red);
 }
+
 .adress-info {
   color: var(--color-whitesemi);
-}
+  font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration-line: none;
+    font-style: normal;
+  }
+
 .adress-info:hover,
 .adress-info:focus {
   color: var(--color-red);
