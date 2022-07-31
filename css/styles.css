@@ -9,22 +9,19 @@
   --color-header-footer: #2F303A;
   --color-whitesemi: :rgba(f, f, f, 0.6);
   --color-button-grey: #F5F4FA;
-  }
+}
 
-.body {
+body {
   background-color:#FFFFFF;
+  color: var(--title-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-   }
-
-   h1,h2,h3,p {
-    font-family: Roboto, sans-serif;
-   }
+}
 
 /* Полезное правило для удаления атрибутов в списке */
 .list {
 list-style: none;
 }
+
 /* Цвет текста логотипа в хедере */
 .studio-link {
   color: var(--color-black);
@@ -33,6 +30,14 @@ list-style: none;
     font-size: 26px;
     line-height: 1.11; 
     text-decoration-line: none;
+}
+
+.logo-link {
+  color: var(--color-blue);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.11;
 }
 
 .web-link {
@@ -48,24 +53,24 @@ list-style: none;
       color: var(--color-red);
 
 }
+
 .web-link-list {
   color: var(--color-blue);
-  font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration-line: none;
- }
+}
 
 .web-link-list:hover,
 .web-link-list:focus {
       color: var(--color-red);
- }
+}
+
 /* Цвета ссылок */
 .portfolio-link {
   color: var(--title-color);
-  font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -80,7 +85,6 @@ list-style: none;
 
 .contact-link {
   color: var(--text-color);
-   font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -120,7 +124,7 @@ list-style: none;
       color: var(--color-red);
 }
 
- .portfolio-button {
+.portfolio-button {
   background-color: var(--color-blue);
   color: var(--color-white);
     font-weight: 500;
@@ -128,7 +132,7 @@ list-style: none;
     line-height: 1.63;
     letter-spacing: 0.03em;
     cursor: pointer;
- }
+}
 
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -137,7 +141,7 @@ list-style: none;
 
 .web-button {
   background-color: var(--color-button-grey);
-  color: var(--title-color);
+  color: var(--title-color); 
     font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
@@ -157,20 +161,29 @@ list-style: none;
     line-height: 2;
     letter-spacing: 0.06em;
     text-transform: none;
-    }
+}
 
-        .site-text {
-          color: var(--text-color-);
-            font-size: 16px;
-            line-height: 1.88;
-            letter-spacing: 0.03em;
-        }
+.site-text {
+    color: var(--text-color-);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
 .rules-list {
   color: var(--title-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+}
+
+.rules-text {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .section-list {
@@ -181,25 +194,15 @@ list-style: none;
       text-align: center;
 }
 
-.rules-text {
-      color: var(--text-color);
-        font-family: Roboto;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-}
-
 .name-list {
   color: var(--title-color);
       font-weight: 500;
       font-size: 16px;
       line-height: 1.19; 
-
 }
 
 .profi-text {
   color: var(--text-color);
-    font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -208,7 +211,7 @@ list-style: none;
 /* Цвет текста логотипа в футере */
 .section-address {
   background-color: var(--color-header-footer);
-  }
+}
 
 .address-studio {
   color: var(--color-white);
@@ -218,11 +221,10 @@ list-style: none;
     line-height: 1.11;
     text-decoration-line: none;
     font-style: normal;
-    }
+}
 
 .address-text {
   color: var(--color-white);
-  font-family: Roboto;
   font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -238,31 +240,16 @@ list-style: none;
 
 .adress-info {
   color: var(--color-whitesemi);
-  font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration-line: none;
     font-style: normal;
-  }
+}
 
 .adress-info:hover,
 .adress-info:focus {
   color: var(--color-red);
 }
 
-
-
-    /* основной текст color: #212121*/
-    /* вторичный цвет color:#757575 */
-    /* цвет кнопки color:#2196F3 */
-       /* цвет Студия, WEB, info color:#2196F3 */
-    /*  цвет текста кнопки color:rgba(0, 0, 0, 0.15); */
- /* цвет кнопки color:rgba( */
-
- /* цвет  STUDIO color:#000000 */
-  /* цвет фона ЭФФЕКТИВН., footer  #2F303A */
-     /* цвет фона WEBSTUDIO #FFFFFF */
-     /* чем мы занимаемся background: #E5E5E5; */
-    /* наша команда background: #F5F4FA; */
