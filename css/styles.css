@@ -125,7 +125,9 @@ list-style: none;
   color: var(--color-white);
     font-weight: 500;
     font-size: 16px;
-    line-height: c;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    cursor: pointer;
  }
 
 .portfolio-button:hover,
@@ -143,7 +145,26 @@ list-style: none;
     letter-spacing: 0.03em;
 }
 
+.web-button:hover,
+.web-button:focus {
+  color: red
+}
 
+.site-list {
+  color: var(--title-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-transform: none;
+    }
+
+        .site-text {
+          color: var(--text-color-);
+            font-size: 16px;
+            line-height: 1.88;
+            letter-spacing: 0.03em;
+        }
 .rules-list {
   color: var(--title-color);
     font-weight: 700;
