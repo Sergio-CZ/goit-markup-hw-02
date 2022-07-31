@@ -9,6 +9,7 @@
   --color-header-footer: #2F303A;
   --color-whitesemi: rgba(255, 255, 255, 0.6);
   --color-button-grey: #F5F4FA;
+  --color-button-blue: #188CE8;
 }
 
 body {
@@ -23,7 +24,6 @@ body {
 .list {
 list-style: none;
 }
-
 /* Цвет текста логотипа в хедере */
 .studio-link {
   color: var(--color-black);
@@ -108,7 +108,7 @@ list-style: none;
 
 .button:hover,
 .button:focus {
-      color: var(--color-red);
+      background-color: var(--color-button-blue);
 }
 
 .portfolio-button {
@@ -122,8 +122,8 @@ list-style: none;
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  color:red;
-}
+  background-color: var(--color-button-blue);
+  }
 
 .all-button {
 background-color: var(--color-blue);
@@ -138,8 +138,8 @@ background-color: var(--color-blue);
 
 .all-button:hover,
 .all-button:focus {
-  color: red
-}
+  background-color: var(--color-button-blue);
+  }
 
 .web-button {
   background-color: var(--color-button-grey);
@@ -153,8 +153,8 @@ background-color: var(--color-blue);
 
 .web-button:hover,
 .web-button:focus {
-  color: red
-}
+  background-color: var(--color-button-blue);
+  }
 
 .site-list {
   color: var(--title-color);
