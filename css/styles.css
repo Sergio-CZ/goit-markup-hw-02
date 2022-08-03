@@ -48,7 +48,7 @@ list-style: none;
 }
 
 .site-pages {
-  color: var(--color-title);
+  color: var(--title-color);
 }
 
 .site-pages .light {
@@ -61,8 +61,12 @@ list-style: none;
   letter-spacing: 0.02em;
 }
  
+.site-pages .light:active {
+  color: var(--color-blue);
+
+}
  .studio-web {
-  color: var(--color-title);
+  color: var(--title-color);
   font-family: Raleway;
   font-weight: 500;
   font-size: 14px;
