@@ -1,4 +1,4 @@
-/* Цвет основы и цветoвая гамма страницы */
+/* Цвет основы и основной цвет страницы */
 :root {
   --text-color:  #757575;
   --title-color: #212121;
@@ -12,8 +12,6 @@
   --color-button-blue: #188CE8;
 }
 
-/* Основные шрифт, цвет шрифта и др. */
-
 body {
   background-color:#FFFFFF;
   color: var(--title-color);
@@ -23,12 +21,12 @@ body {
 }
 
 /* Полезное правило для удаления атрибутов в списке */
-
 .list {
 list-style: none;
 }
-
 /* Первая страница Студия */
+
+/* Цвет текста логотипа в хедере */
 
 .studio-logo {
   color: var(--color-black);
@@ -82,7 +80,7 @@ list-style: none;
   color: var(--color-blue);
 }
 
-.contact {
+.contact-list {
   color: var(--text-color);
 }
 .contact-link {
@@ -96,6 +94,17 @@ list-style: none;
 .contact-link:hover,
 .contact-link:focus {
   color: var(--color-blue);
+}
+
+.contact-list {
+  color:var(--text-color);
+}
+.contact-list .contact-light {
+  color: var(--color-button-blue);
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    text-decoration-line: none;
 }
 
 .text {
@@ -124,7 +133,6 @@ list-style: none;
 .button:focus {
   background-color: var(--color-button-blue);
 }
-
 .rules-list {
   color: var(--title-color);
   font-weight: 700;
